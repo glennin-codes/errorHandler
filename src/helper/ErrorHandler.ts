@@ -9,5 +9,5 @@ export const ErrorHandler:ErrorRequestHandler=(err:unknown,req:Request,res:Respo
         errorMessage=err.message;
 
     }
-    res.status(statusCode).json(errorMessage);
+    res.status(statusCode).json({error:errorMessage});
 }
