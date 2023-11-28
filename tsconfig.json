@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "target": "ES2020", 
+        "module": "NodeNext",                                /* Specify what module code is generated. */
+        "rootDir": "src",                                  /* Specify the root folder within your source files. */
+        "moduleResolution": "NodeNext",
+        "outDir": "dist",                                   /* Specify an output folder for all emitted files. */
+        "sourceMap": true,                                  /* Specify the location where debugger should locate map files instead of generated locations. */
+        "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+        "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+
+        /* Type Checking */
+        "strict": true,                                      /* Enable all strict type-checking options. */
+        // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
+    "skipLibCheck": true   
+    },
+    "include": ["src/**/*"],
+    "exclude": [
+      "node_modules",  
+      "dist",
+      "build",
+      "coverage",
+      "scripts",
+      "test",
+      
+      
+    ],
+}
